@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "outDir": "build",
+    "baseUrl": "./src",
+    "strict": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/v2/library/AnalyticsClient.js"
+, "app.ts"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
